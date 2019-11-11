@@ -26,14 +26,14 @@ public class WaterDown : MonoBehaviour
     {
         if (IsDown && Graph.GetInputFloat("WaterLevel1") < 1)
         {
-            value += Time.deltaTime * 0.5f;
+            value += Time.deltaTime * 0.7f;
             Graph.SetInputFloat("WaterLevel1", value);
             Graph.QueueForRender();
             Graph.RenderSync();
         }
         if (!IsDown && Graph.GetInputFloat("WaterLevel2") < 1)
         {
-            value += Time.deltaTime * 0.1f;
+            value += Time.deltaTime * 0.7f;
             Graph.SetInputFloat("WaterLevel2", value);
             Graph.QueueForRender();
             Graph.RenderSync();

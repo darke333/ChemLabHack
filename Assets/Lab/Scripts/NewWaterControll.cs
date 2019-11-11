@@ -22,13 +22,19 @@ public class NewWaterControll : MonoBehaviour
         a = angle;
         if (angle > minAng && angle < maxAng)
         {
-            controller.ChangeBehavior();
-            Emitting = false;
+            if (Emitting)
+            {
+                controller.ChangeBehavior();
+                Emitting = false;
+            }            
         }
         else
         {
-            controller.ChangeBehavior();
-            Emitting = true;
+            if (!Emitting)
+            {
+                controller.ChangeBehavior();
+                Emitting = true;
+            }
         }
 
     }

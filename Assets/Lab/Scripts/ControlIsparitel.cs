@@ -12,7 +12,7 @@ public class ControlIsparitel : MonoBehaviour
     public Change2 mist;
     float TimeOperation;
     public GameObject emitter1;
-    public GameObject emitter2;
+    //public GameObject emitter2;
     public GameObject Text1;
     public GameObject Text2;
     public bool Finished;
@@ -28,7 +28,7 @@ public class ControlIsparitel : MonoBehaviour
     void FinishProg()
     {
         emitter1.SetActive(false);
-        emitter2.SetActive(true);
+        //emitter2.SetActive(true);
         Text1.SetActive(false);
         Text2.SetActive(true);
     }
