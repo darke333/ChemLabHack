@@ -16,25 +16,25 @@ public class Change2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        value = Graph.GetInputFloat("Misted_Opacity");
+        value = Graph.GetInputFloat("Normal");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (mist && value>0)
+        if (mist && value < 1)
         { 
-            value -= Time.deltaTime * 0.1f;
-            Graph.SetInputFloat("Misted_Opacity", value);
-            Graph.SetInputFloat("Mistedd_normal", value);
+            value += Time.deltaTime * 0.1f;
+            Graph.SetInputFloat("Normal", value);
+            Graph.SetInputFloat("Roughness", value);
             Graph.QueueForRender();
             Graph.RenderSync();
         }
-        if (!mist && value < 1)
+        if (!mist && value > 0)
         {
-            value += Time.deltaTime * 0.1f;
-            Graph.SetInputFloat("Misted_Opacity", value);
-            Graph.SetInputFloat("Mistedd_normal", value);
+            value -= Time.deltaTime * 0.1f;
+            Graph.SetInputFloat("Normal", value);
+            Graph.SetInputFloat("Roughness", value);
             Graph.QueueForRender();
             Graph.RenderSync();
         }

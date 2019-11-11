@@ -53,7 +53,6 @@ public class ControlIsparitel : MonoBehaviour
             foreach(ParticleSystem particle in Smoke)
             {
                 particle.emissionRate = 10;
-                //print("1");
             }
             mist.mist = true;
             if (Finished)
@@ -64,21 +63,15 @@ public class ControlIsparitel : MonoBehaviour
                     FinishProg();
                 }
             }
-
-
         }
         else
         {
             foreach (ParticleSystem particle in Smoke)
             {
                 particle.emissionRate = 0;
-                //particle.Stop(true, ParticleSystemStopBehavior.StopEmitting);
-                //print("2");
+
             }
             mist.mist = false;
         }
-        //UIs[0].CurrentNumber
-
-
     }
 }

@@ -1,6 +1,6 @@
 ALLEGORITHMIC GENERAL TERMS & CONDITIONS
 ALL PRODUCTS
-Last updated - September 19, 2019
+Last updated July 16, 2019
 PLEASE READ THE AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING OR USING THE SOFTWARE OR THE COPYRIGHTED ASSET.
 CLICKING THE "AGREE" BUTTON FOR DOWNLOADED SOFTWARE OR COPYRIGHTED ASSETS, OR USING THE SOFTWARE OR COPYRIGHTED ASSETS MEANS THAT YOU ACCEPT THE TERMS AND CONDITIONS OF THIS AGREEMENT.
 IF YOU ARE CONSUMER OR NON-PROFESSIONAL, YOU UNDERSTAND AND AGREE THAT BY DOWNLOADING ANY SOFTWARE OR COPYRIGHTED ASSET IMMEDIATELY AFTER ACCEPTING THIS AGREEMENT, YOU ARE HEREBY LOSING YOUR WITHDRAWAL RIGHT.
@@ -27,7 +27,7 @@ In this Agreement, capitalized terms shall have the meaning ascribed to them in 
 "Enterprise License" means a License to the Software or to the Copyrighted asset(s) granted to Legal Entities (i) which main business activity is not video game development, visual effects, animation and which are not educational and/or academic (ii) whether commercial or non-profit, with Revenue exceeding US$100,000,000. Enterprise Licenses cannot be subscribed to on Allegorithmic website. A User requesting an Enterprise License must contact Allegorithmic directly to be provided a service description and quotation. Government entities may not subscribe to Enterprise Licenses.
 "Evaluation License" means a License granted to the User for a limited version of the Software ("the Evaluation Software") for a limited duration, generally of thirty (30) days unless agreed expressly otherwise by Allegorithmic ("the Evaluation Term"), to enable the User to evaluate the Software in connection with the User's internal business purposes to determine whether to purchase the non-evaluation version of the Software. Commercial Use, publishing or redistribution of the Software, the Substances or the Licensee Content is strictly forbidden under an Evaluation License.
 "Floating License" means a License allowing to share the Use of the Software between several individual Users of a Legal Entity. Users of the Floating License can Use the Software simultaneously on any number of computers provided that a License for the number of computers using the Software simultaneously has been purchased. The Agreement applicable to the same Floating License's group of users shall be the Agreement in force as of the first download by the Legal Entity, if applicable.
-"Indie License" means a License to Use the Software granted to either (i) an individual, being or not a professional user, or a Legal entity, whether commercial or non-profit, with Revenue not exceeding US$100,000 during the prior fiscal year. Government entities may not subscribe to Indie Licenses.
+“Indie License” means a License to Use the Software granted to either (i) an individual, being or not a professional user, or a Legal entity, whether commercial or non-profit, with Revenue not exceeding US$100,000 during the prior fiscal year. Government entities may not subscribe to Indie Licenses.
 "Not-For-Resale Purpose" or "NFR Purpose" means a License granted to the User for a limited duration to use the Software in a non-production environment for (i) internal developing and testing purposes or (ii) educational and internal training purposes, all on Your own premises and equipment. Commercial Use, publishing or redistribution of the Software, the Substances or the Licensee Content is strictly forbidden under a NFR License.
 "Pro License" means a License to the Software or the Copyrighted asset(s) granted (i) to a professional user or a Legal Entity whether commercial or non-profit, other than an educational and/or academic one, with annual Revenue between US$100,000 and US$100,000,000; (ii) or to a commercial Legal Entity which is part of the Video game industry, VFX industry or a Government Agency, with Revenue above US$100,000. For clarification purposes, any contractor working on behalf of the User shall subscribe to a Pro License if applicable, notwithstanding the contractor's own revenue.
 "Student License" means a License to the Software or the Copyrighted Asset(s) granted to a (i) User who must be a student or teacher enrolled with an accredited educational institution, (ii) and not an educational, academic, non-profit or government Legal Entity. A Student license should be used exclusively for learning, and cannot be used for any Commercial Use, nor any use competing with Allegorithmic. As such, the Student License can be used to create a portfolio or any work created by the user during his studies or for contests. An evidence by his/her Student ID which shall be communicated to Allegorithmic at the time the request for a Student License is made. A Student License is valid for one (1) year.
@@ -45,7 +45,7 @@ In this Agreement, capitalized terms shall have the meaning ascribed to them in 
 "Third Party Provider" means a person not affiliated to Allegorithmic that provides Copyrighted Assets on Substance Share and/ or Substance Source.
 "Use" means the loading, installation and use of the Software or the Copyrighted Assets in accordance with the terms of the Agreement.
 "User" means an individual person who is authorized by Allegorithmic to Use the Software or the Copyrighted Assets.
-"Website" or "Allegorithmic website": means this Website accessible at www.substance3d.com owned and operated by Allegorithmic;
+"Website" or “Allegorithmic website”: means this Website accessible at www.substance3d.com owned and operated by Allegorithmic;
 "You" means the User or the Legal Entity Using the Software or the Copyrighted Assets as licensee.
 "Your" means relating to You or made or done by You.
 2.	CONDITION PRECEDENT TO THE LICENSING OF ANY SOFTWARE OR COPYRIGHTED ASSET
@@ -110,7 +110,7 @@ Allegorithmic may transfer Your personal data to partners in the United States o
 The periods for which Allegorithmic keeps Your personal data are proportionate to the purposes for which Your data were collected.
 In accordance with the French Data Protection Act and the General Data Protection Regulation, individuals have the right to access to their personal data, the right to rectify, inquire about their personal data, the right to restriction of processing, and as well as the right to erasure in respect of those data.
 Data subjects also have the right to object, on grounds relating to their particular situation, at any time to processing of personal data which have as their legal basis the legitimate interest of the firm, as well as the right to object to processing for direct marketing purposes.
-They also have the right to give general or specific instructions on how the above rights should be exercised after their death. You can exercise the above-mentioned rights by sending a letter, together with a copy of a signed identity document by email at privacy@allegorithmic.com or legal@allegorithmic.com or by mail to "Allegorithmic, 3 avenue Julien 63000 Clermont Ferrand".
+They also have the right to give general or specific instructions on how the above rights should be exercised after their death. You can exercise the above-mentioned rights by sending a letter, together with a copy of a signed identity document by email at legal@allegorithmic.com or by mail to "Allegorithmic, 3 avenue Julien 63000 Clermont Ferrand".
 11.	ASSISTANCE
 In the event You have a query about the Software or a Copyrighted Asset, You may contact Allegorithmic support team by email at the address provided on Allegorithmic website.
 12.	TERM AND TERMINATION
@@ -167,7 +167,7 @@ Upon Allegorithmic reasonable prior written notice to You, You shall permit Alle
 The contact email address is contact@allegorithmic.com or sales@allegorithmic.com.
 ALLEGORITHMIC
 SPECIFIC TERMS & CONDITIONS AND TERMS OF USE
-Last updated - March 6, 2019
+Last updated – March 6, 2019
 SUBSTANCE
 SUBSTANCE PLAYER
 SUBSTANCE DESIGNER
@@ -418,15 +418,15 @@ one (1) valid License of the Software either Pro, Enterprise, Student, Academic 
 If Your right to Use Substance Alchemist is part of Your License to Substance subscription
 and is subject to the payment of subscription License Fees which are payable monthly or otherwise, You are entitled to use the last executable version of the Software as long as You are either (i) up to thirty (30) days, or up to the end of the current term if agreed otherwise, after Your last Substance subscription monthly payment, as duly performed (ii) current with Your maintenance program subscription payment, as duly performed.
 4. DISCLAIMER OF WARRANTY
-PLEASE NOTE THAT THE ALCHEMIST VERSION PROVIDED ON THE WEBSITE IS A BETA VERSION OF ALCHEMIST SOFWARE. AS SUCH, IT IS STILL UNDERGOING TESTING BEFORE ITS FINAL RELEASE AND PROVISIONS OF SECTIONS 13 - NO WARRANTY AND 14 - LIMITATION OF LIABILITY OF THE GENERAL TERMS AND CONDITIONS, SHALL APPLY.
+PLEASE NOTE THAT THE ALCHEMIST VERSION PROVIDED ON THE WEBSITE IS A BETA VERSION OF ALCHEMIST SOFWARE. AS SUCH, IT IS STILL UNDERGOING TESTING BEFORE ITS FINAL RELEASE AND PROVISIONS OF SECTIONS 13 – NO WARRANTY AND 14 – LIMITATION OF LIABILITY OF THE GENERAL TERMS AND CONDITIONS, SHALL APPLY.
 NOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, IN PARTICULAR, ALLEGORITHMIC, ITS SUBSIDIARIES, HOLDING COMPANIES, AFFILIATES AND ITS LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT (A) YOUR USE OF SUBSTANCE ALCHEMIST WILL MEET YOUR REQUIREMENTS (B) YOUR USE OF SUBSTANCE ALCHEMIST WILL BE UNINTERRUPTED TIMELY SECURE OR FREE FROM ERROR (C) THAT DEFECTS IN THE OPERATION OR FUNCTIONALITY OF ANY SOFTWARE OR APPLICATION MADE AVAILABLE TO YOU ON SUBSTANCE ALCHEMIST WILL BE CORRECTED AND (D) SUBSTANCE ALCHEMIST WILL NOT CAUSE ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA.
 YOU AGREE TO DEFEND, HOLD HARMLESS AND INDEMNIFY ALLEGORITHMIC, AND ITS SUBSIDIARIES, AFFILIATES, AGENTS, EMPLOYEES, AND SUPPLIERS, FROM AND AGAINST ANY THIRD PARTY CLAIM ARISING FROM OR IN ANY WAY RELATED TO YOUR OR YOUR USERS' USE OF SUBSTANCE ALCHEMIST OR VIOLATION OF THESE TERMS OF USE, INCLUDING ANY LIABILITY OR EXPENSES ARISING FROM ALL CLAIMS, LOSSES, DAMAGES (ACTUAL AND CONSEQUENTIAL), SUITS, JUDGMENTS, LITIGATION COSTS AND REASONABLE ATTORNEYS' AND LITIGATION FEES.
-SUBSTANCE LAUNCHER - SPECIFIC TERMS & CONDITIONS
-Last update - March 6, 2019
+SUBSTANCE LAUNCHER – SPECIFIC TERMS & CONDITIONS
+Last update – March 6, 2019
 In addition to the General Terms and Conditions, Your Use of the Substance Launcher is subject to the following additional terms and conditions.
-The software You are licensing hereunder is Substance Launcher (the "Software")
+The software You are licensing hereunder is Substance Launcher (the “Software”)
 1.	ADDITIONAL DEFINITION
- "Substance Launcher" means the software developed by Allegorithmic with which You can access to the Substance toolset specified in the different Specific Terms & Conditions. The Substance Launcher is part of the proprietary software of Allegorithmic.
+ “Substance Launcher” means the software developed by Allegorithmic with which You can access to the Substance toolset specified in the different Specific Terms & Conditions. The Substance Launcher is part of the proprietary software of Allegorithmic.
 2.	SPECIFIC TERMS AND CONDITIONS
  The Software is licensed to You free of charge by downloading it on Allegorithmic website. Therefore, the terms related to the monthly or annual subscriptions do not apply to the Substance Launcher. The Section 12 - Termination of General Terms and Conditions does not apply either. Allegorithmic shall retain all Intellectual Property Rights, including without limitation copyrights to all media elements provided to You with the Software, including without limitation the Substance Toolset you may access with the Software.
 
