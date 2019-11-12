@@ -5,6 +5,7 @@ using TMPro;
 
 public class Scenario1 : MonoBehaviour
 {
+    public List<GameObject> Hints;
     public OVRGrabbable colba;
     public WaterControll rechag;
     public DebugPool debugPool;
@@ -19,6 +20,10 @@ public class Scenario1 : MonoBehaviour
     void Start()
     {
         RestTime = 5;
+        foreach (GameObject hint in Hints)
+        {
+            hint.SetActive(true);
+        }
     }
 
     void PhaseOne()
@@ -42,6 +47,10 @@ public class Scenario1 : MonoBehaviour
             if (RestTime < 0)
             {
                 NextPhase.SetActive(true);
+                foreach (GameObject hint in Hints)
+                {
+                    hint.SetActive(false);
+                }
                 Destroy(gameObject);
             }
         }
