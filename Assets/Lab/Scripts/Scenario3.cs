@@ -16,7 +16,7 @@ public class Scenario3 : MonoBehaviour
     public int SaltOut;
     public UIPanelControll Temperature;
     public ControlIsparitel contr;
-    public WaterControll water;
+    public NewWaterControll water;
     float RestTime;
 
     // Start is called before the first frame update
