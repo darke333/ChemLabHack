@@ -12,8 +12,8 @@ public class Scenario3 : MonoBehaviour
     public TextMeshPro text2;
     public TextMeshPro text3;
     public TextMeshPro text4;
-    public TextMeshPro text5;
 
+    public OnPump onPump;
     public int SaltOut;
     public UIPanelControll Temperature;
     public ControlIsparitel contr;
@@ -24,32 +24,12 @@ public class Scenario3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Hints[0].SetActive(true);
+        //Hints[0].SetActive(true);
         Hints[1].SetActive(true);
 
     }
 
-    void ChangeHint(bool forward)
-    {
-        if (forward)
-        {
-            number++;
-            Hints[number].SetActive(true);
-            if (number > 0)
-            {
-                Hints[number - 1].SetActive(false);
-            }
-        }
-        else
-        {
-            number--;
-            Hints[number].SetActive(true);
-            if (number < Hints.Count)
-            {
-                Hints[number + 1].SetActive(false);
-            }
-        }
-    }
+
 
     void PhaseOne()
     {
@@ -74,7 +54,7 @@ public class Scenario3 : MonoBehaviour
             text2.color = Color.green;
             text3.gameObject.SetActive(true);
             Hints[2].SetActive(false);
-            Hints[3].SetActive(true);
+            Hints[4].SetActive(true);
 
 
 
@@ -87,14 +67,13 @@ public class Scenario3 : MonoBehaviour
 
     void PhaseThree()
     {
-        if (water.Emitting)
+        if (onPump.PumpOn)
         {
             text3.color = Color.green;
-            contr.Finished = true;
-            foreach (GameObject hint in Hints)
-            {
-                hint.SetActive(false);
-            }
+            text4.gameObject.SetActive(true);
+            Hints[4].SetActive(false);
+            Hints[3].SetActive(true);
+
         }
         else
         {
@@ -102,30 +81,28 @@ public class Scenario3 : MonoBehaviour
         }
     }
 
-    void MistakeOne()
+    void PhaseFour()
     {
-        if (SaltOut > 10)
+        if (onPump.enabled)
         {
-            text5.gameObject.SetActive(true);
-        }
-        else
-        {
-            text5.gameObject.SetActive(false);
-        }
-    }
-
-    void MistaceTwo()
-    {
-        if (debugPool.Splited)
-        {
-            text5.gameObject.SetActive(true);
-        }
-        else
-        {
-            text5.gameObject.SetActive(false);
+            if (water.Emitting)
+            {
+                text4.color = Color.green;
+                contr.Finished = true;
+                foreach (GameObject hint in Hints)
+                {
+                    hint.SetActive(false);
+                }
+            }
+            else
+            {
+                text4.color = Color.white;
+            }
         }
 
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -133,6 +110,7 @@ public class Scenario3 : MonoBehaviour
         PhaseOne();
         PhaseTwo();
         PhaseThree();
+        PhaseFour();
 
     }
 }

@@ -11,7 +11,8 @@ public class OnMachine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.transform.rotation = OffPos.rotation;
+
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -34,11 +35,6 @@ public class OnMachine : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collision collision)
-    {
-
-
-    }
 
     // Update is called once per frame
     void Update()
