@@ -23,6 +23,7 @@ public class ControlIsparitel : MonoBehaviour
     {
         TimeOperation = 5;
         //Started = true;
+        Time.timeScale = 1;
     }
 
     void FinishProg()
@@ -41,8 +42,9 @@ public class ControlIsparitel : MonoBehaviour
 
     public void ReloadSc()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        //Scene scene = SceneManager.GetActiveScene();
+        //SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     void Rotation()
